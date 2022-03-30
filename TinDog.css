@@ -1,0 +1,368 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    padding: 0px 150px;
+    background-color: #ff4c68;
+    /* border: 1px solid white; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    /* border: 1px solid white; */
+}
+
+.banner {
+    font-size: 40px;
+    /* border: 1px solid white; */
+}
+
+.banner a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* .navigation { */
+
+
+/* border: 1px solid white; */
+
+
+/* } */
+
+.navigation ul {
+    list-style-type: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    /* border: 1px solid white; */
+}
+
+.navigation ul li {
+    /* border: 1px solid white; */
+    margin: 0px 10px;
+}
+
+.navigation ul li a {
+    /* padding: 15px; */
+    text-decoration: none;
+    color: rgb(252, 169, 169);
+    font-weight: bold;
+    font-size: 16px;
+    /* border: 1px solid white; */
+}
+
+.navigation ul li a:hover {
+    color: rgb(245, 216, 216);
+}
+
+.banner-2 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.banner-3 {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    padding: 0px 150px;
+}
+
+.button {
+    background-color: rgb(48, 48, 48);
+    color: white;
+    padding: 15px 40px;
+    /* border: none; */
+    border-radius: 6px;
+    font-size: larger;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.button1 {
+    background-color: transparent;
+    color: white;
+    padding: 15px 40px;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: black;
+    transition-duration: 0.4s;
+}
+
+.button:active {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.img {
+    padding: 30px 0px;
+}
+
+.features {
+    background-color: white;
+}
+
+.square {
+    border: 10px solid #ef8172;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    width: 0%;
+    padding: 35px 35px;
+}
+
+.square:hover {
+    border: 10px solid #f05b48;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    padding: 0px;
+}
+
+p {
+    text-align: center;
+    padding: 0px;
+}
+
+.circle {
+    border: 10px solid #ef8172;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    width: 0%;
+    padding: 35px 35px;
+    border-radius: 50%;
+}
+
+.circle:hover {
+    border: 10px solid #f05b48;
+}
+
+.love {
+    display: block;
+    aspect-ratio: 1;
+    border-image: radial-gradient(#ef8172 69%, #0000 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    width: 0%;
+    padding: 35px 35px;
+    border-radius: 50%;
+}
+
+.love:hover {
+    border-image: radial-gradient(#f05b48 69%, #0000 70%) 84.5% fill/100%;
+    clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+    display: block;
+    aspect-ratio: 1;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 70px;
+    width: 0%;
+    padding: 35px 35px;
+    border-radius: 50%;
+}
+
+.testimonial {
+    background-color: #ef8172;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 50px 50px;
+    color: rgb(36, 34, 34);
+}
+
+.person {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 2px 0px 0px 0px;
+}
+
+#lady {
+    border-radius: 50%;
+    width: 50px;
+}
+
+em {
+    text-align: center;
+    color: rgb(233, 233, 233);
+}
+
+.sponsors {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding: 50px 0px;
+}
+
+#Pricing {
+    background-color: white;
+}
+
+#Priceplan {
+    padding: 70px 0px 0px 0px;
+}
+
+.pricelist1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 10px 10px;
+    border: 1px solid rgba(126, 126, 126, 0.5);
+    border-radius: 6px;
+}
+
+.pricelist1-header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: 1px solid rgba(126, 126, 126, 0.5);
+}
+
+#free {
+    padding: 0px;
+}
+
+.signup {
+    padding: 10px 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    font-size: larger;
+}
+
+.signup:hover {
+    background-color: rgb(24, 24, 24);
+    transition-delay: 0.2ms;
+    color: white;
+}
+
+.pricelist {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 0px 60px;
+}
+
+#Download {
+    background-color: #ff4c68;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 120px;
+    color: white;
+}
+
+.banner-4 {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+
+#Contact {
+    background-color: white;
+}
+
+.icons {
+    padding: 0px 20px;
+}
+
+.test4 {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+i {
+    color: black;
+}
+
+h4 {
+    text-align: center;
+    font-weight: lighter;
+}
+
+h4 a {
+    text-decoration: none;
+    color: dodgerblue;
+    padding-bottom: 220px;
+}
+
+h4 a:hover {
+    color: rgb(0, 56, 112);
+    text-decoration: underline;
+}
+
+.ContactForm {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+#messageForm {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 30px;
+    color: black;
+}
+
+label {
+    color: black;
+    font-size: 20px;
+}
+
+#submit {
+    background-color: black;
+    display: block;
+    color: white;
+}

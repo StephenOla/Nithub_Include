@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+}
+
+.again {
+    padding: 10px 70px;
+    font-family: serif;
+    font-size: 35px;
+    margin: 5px 15px;
+}
+
+h2 {
+    color: white;
+    display: inline;
+    position: absolute;
+    right: 0;
+    margin: 5px 15px;
+    text-align: center;
+}
+
+#guess {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 70px;
+}
+
+.hr {
+    display: block;
+    font-size: 50px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+}
+
+#hr1 {
+    color: black;
+    text-align: center;
+}
+
+#guessfield {
+    border: 2px solid white;
+    font-size: 350%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+#check {
+    font-size: 200%;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form1 {
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.form2 {
+    /* border: 2px solid white; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}

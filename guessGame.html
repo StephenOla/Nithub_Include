@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guessGame.css">
+    <title>Guess Game</title>
+</head>
+
+<body>
+    <div class="header">
+        <button type="button" class="again" onclick="fun">Again!</button>
+        <h2>
+            &lt; Between 0 and 20 &gt;
+        </h2>
+    </div>
+    <div>
+        <h1 id="guess">Guess My Number!</h1>
+    </div>
+    <div class="hr">
+        <h1 id="hr1">?</h1>
+    </div>
+    <div class="form1">
+        <form>
+            <input type="number" id="guessfield" min="1" max="20">
+            <!-- <input type="button" id="check" value="Check!"> -->
+        </form>
+        <h3 id="textt">Start guessing...</h3>
+    </div>
+    <div class="form2">
+        <input type="button" id="check" value="Check!">
+        <div class="scoreboard">
+            <h3 id="score">Score: 20 </h3>
+            <h3 id="highscore">Highscore: 20</h3>
+        </div>
+    </div>
+    <script src="./guessGame.js"></script>
+</body>
+
+</html>
